@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Cars",
+    "image": "https://i.ibb.co/nmSQrsY/1.png",
+    "availableJobs": 120
+  },
+  {
+    "id": 2,
+    "title": "House",
+    "image": "https://i.ibb.co/YPMy5Xp/2.png",
+    "availableJobs": 85
+  },
+  {
+    "id": 3,
+    "title": "Jobs",
+    "image": "https://i.ibb.co/NW8JnM4/3.png",
+    "availableJobs": 60
+  },
+  {
+    "id": 4,
+    "title": "Freebies",
+    "image": "https://i.ibb.co/wcgVNHs/4.png",
+    "availableJobs": 45
+  }
+]
