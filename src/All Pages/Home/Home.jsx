@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner";
 import Search from "../../Components/Search";
+import TheTab from "../../Components/TheTab";
 import BannerBG from "./../../assets/Banner/4.png"
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
           }
             />
             <Search></Search>
+            <TheTab></TheTab>
       </div>
     );
 };
