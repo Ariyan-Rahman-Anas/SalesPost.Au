@@ -5,7 +5,7 @@ const FeaturedCateCard = ({ category }) => {
         <img
           src={image}
           alt="img of category"
-          className="rounded-md group-hover:opacity-20 "
+          className="w-full rounded-md group-hover:opacity-20 "
         />
         <div className="absolute bottom-0 bg-black group-hover:w-full group-hover:h-full group-hover:opacity-50 rounded-md duration-500"></div>
         <div
