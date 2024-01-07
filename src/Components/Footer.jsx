@@ -145,9 +145,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="pt-4 pb-1 text-white text-center">
+        <p className="pt-6 pb-1 text-white text-center">
           {`Copy-Right ${currentYear} || All rights reserved by `}{" "}
-          <a className="text-[#658cff] font-semibold "
+          <a
+            className="text-[#658cff] font-semibold "
             href="https://ariyanrahmananas.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
