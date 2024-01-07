@@ -9,7 +9,7 @@ const AppStore = () => {
     return (
       <div className="pt-10 flex flex-col md:flex-row items-center justify-between gap-5 px-2 bg-black text-white ">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-          <div className="w-[5rem] ">
+          <div className="w-[5rem] p-2 ">
             <img src={Icon} alt="the project icon" className="w-full" />
           </div>
           <div>
