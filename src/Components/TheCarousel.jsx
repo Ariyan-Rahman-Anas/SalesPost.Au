@@ -65,11 +65,10 @@ const TheCarousel = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <div>
               <h1 className="font-normal text-3xl md:text-5xl">
-                Looking to make some extra cash?
+                Get the most out of your ad
               </h1>
               <p className="text-sm my-4 ">
-                Find out your car's value with our instant car valuation & sell
-                where the buyers are.
+                Check out our tips & tricks for success on SalesPost.Au.
               </p>
               <Link className="text-white bg-[#4169e1] px-5 py-2 rounded-md hover:text-[#4169e1] hover:bg-white duration-500 font-semibold ">
                 Start Now
@@ -96,7 +95,7 @@ const TheCarousel = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <div>
               <h1 className="font-normal text-3xl md:text-5xl">
-                Looking to make some extra cash?
+                Buy & sell safely
               </h1>
               <p className="text-sm my-4 ">
                 Find out your car's value with our instant car valuation & sell
