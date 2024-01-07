@@ -2,6 +2,7 @@ import Banner from "../../Components/Banner";
 import FeaturedCategories from "../../Components/FeaturedCategories";
 import PopularItem from "../../Components/PopularItem";
 import Search from "../../Components/Search";
+import TheCarousel from "../../Components/TheCarousel";
 import TheTab from "../../Components/TheTab";
 import BannerBG from "./../../assets/Banner/4.png"
 
@@ -20,6 +21,7 @@ const Home = () => {
             <TheTab></TheTab>
         <FeaturedCategories></FeaturedCategories>
         <PopularItem></PopularItem>
+        <TheCarousel></TheCarousel>
       </div>
     );
 };
