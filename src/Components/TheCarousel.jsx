@@ -150,5 +150,4 @@ const TheCarousel = () => {
     </>
   );
 };
-
 export default TheCarousel;
