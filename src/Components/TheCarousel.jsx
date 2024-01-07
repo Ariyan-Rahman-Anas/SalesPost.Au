@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const TheCarousel = () => {
   return (
-    <>
+    <div className="bg-black">
       <Swiper
         cssMode={true}
         navigation={true}
@@ -146,7 +146,7 @@ const TheCarousel = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 export default TheCarousel;

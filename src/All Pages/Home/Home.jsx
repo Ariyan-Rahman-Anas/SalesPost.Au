@@ -1,3 +1,4 @@
+import AppStore from "../../Components/AppStore";
 import Banner from "../../Components/Banner";
 import FeaturedCategories from "../../Components/FeaturedCategories";
 import PopularItem from "../../Components/PopularItem";
@@ -22,6 +23,7 @@ const Home = () => {
         <FeaturedCategories></FeaturedCategories>
         <PopularItem></PopularItem>
         <TheCarousel></TheCarousel>
+        <AppStore></AppStore>
       </div>
     );
 };
