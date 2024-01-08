@@ -1,6 +1,23 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import Logo from "./../assets/Logo.png"
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
+
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext) 
+  const navigate = useNavigate()
+  
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        navigate("/login")
+        toast.success("Log out Successful!");
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
     return (
       <div>
         <nav className="flex items-center justify-between p-2">
@@ -146,9 +163,21 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <Link to={"/login"} className="px-5 py-2 rounded-md font-semibold text-white bg-[#4169e1] border-[.09rem] border-transparent hover:text-[#4169e1] hover:bg-transparent hover:border-[#4160e1] duration-500 ">
-              Log in
-            </Link>
+            {user ? (
+              <Link
+                onClick={handleLogOut}
+                className="px-5 py-2 rounded-md font-semibold text-white bg-[#4169e1] border-[.09rem] border-transparent hover:text-[#4169e1] hover:bg-transparent hover:border-[#4160e1] duration-500 "
+              >
+                Log out
+              </Link>
+            ) : (
+              <Link
+                to={"/login"}
+                className="px-5 py-2 rounded-md font-semibold text-white bg-[#4169e1] border-[.09rem] border-transparent hover:text-[#4169e1] hover:bg-transparent hover:border-[#4160e1] duration-500 "
+              >
+                Log in
+              </Link>
+            )}
           </div>
         </nav>
       </div>
