@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Car",
+    "img": "https://i.ibb.co/DG12bmt/1.png",
+    "description": "Experience the pinnacle of automotive excellence with this high-performance luxury car. Featuring a powerful engine, cutting-edge technology, and exquisite craftsmanship, this car is designed to provide an unparalleled driving experience. Whether you're navigating city streets or embarking on a cross-country adventure, this luxury car combines style, comfort, and performance. Don't miss the opportunity to own a masterpiece of automotive engineering.",
+    "location": "Sydney, NSW",
+    "price": 75000.0
+  },
+  {
+    "id": 2,
+    "name": "Smart TV",
+    "img": "https://i.ibb.co/zx7BBBB/2.png",
+    "description": "Immerse yourself in the world of entertainment with this state-of-the-art smart TV. Boasting a large, crystal-clear display with 4K resolution, this TV delivers breathtaking visuals and vibrant colors. Its smart capabilities allow you to stream your favorite movies, TV shows, and online content effortlessly. With sleek design and advanced features, this smart TV is the perfect addition to your home theater setup. Elevate your viewing experience and enjoy the latest in entertainment technology.",
+    "location": "Melbourne, VIC ",
+    "price": 1200.0
+  },
+  {
+    "id": 3,
+    "name": "Modern Sofa Set",
+    "img": "https://i.ibb.co/4fjmTk4/3.png",
+    "description": "Transform your living space with this elegant and comfortable modern sofa set. Crafted with attention to detail, each piece in this set combines style and functionality. The plush cushions provide a cozy seating experience, while the sleek design adds a touch of sophistication to your home decor. Whether you're hosting guests or enjoying a quiet evening, this sofa set creates a welcoming atmosphere. Upgrade your living room with this modern and versatile furniture ensemble.",
+    "location": "Brisbane, QLD ",
+    "price": 1800.0
+  },
+  {
+    "id": 4,
+    "name": "Vintage Bicycle",
+    "img": "https://i.ibb.co/rxKNybt/4.png",
+    "description": "Rediscover the joy of cycling with this classic vintage bicycle. Carefully restored to its former glory, this bicycle combines timeless design with modern reliability. The sturdy frame, comfortable saddle, and smooth ride make it ideal for leisurely rides around the neighborhood or commuting to work. Whether you're a cycling enthusiast or someone looking for a unique mode of transportation, this vintage bicycle offers a charming blend of nostalgia and practicality.",
+    "location": "Perth, WA ",
+    "price": 350.0
+  },
+  {
+    "id": 5,
+    "name": "Kitchen Appliance Bundle",
+    "img": "https://i.ibb.co/GVPBhFd/5.png",
+    "description": "Upgrade your kitchen with this comprehensive bundle of modern kitchen appliances. The set includes high-quality appliances designed to make cooking and meal preparation a breeze. From a sleek refrigerator to a versatile microwave and a powerful blender, this bundle has everything you need for a well-equipped kitchen. Each appliance is designed for efficiency, style, and durability, ensuring that your kitchen remains a hub of culinary creativity. Elevate your cooking experience with this convenient and stylish kitchen appliance bundle.",
+    "location": "Adelaide, SA ",
+    "price": 1200.0
+  },
+  {
+    "id": 6,
+    "name": "Family Car",
+    "img": "https://i.ibb.co/D14XJbr/6.png",
+    "description": "Meet the perfect family car designed to accommodate your lifestyle and travel needs. With ample interior space, advanced safety features, and a fuel-efficient engine, this car is ideal for both daily commuting and family road trips. The comfortable seating, intuitive infotainment system, and spacious cargo area make every journey enjoyable. Whether you're a growing family or an individual seeking a versatile and reliable vehicle, this family car offers a perfect blend of comfort and practicality.",
+    "location": "Canberra, ACT ",
+    "price": 30000.0
+  },
+  {
+    "id": 7,
+    "name": "Outdoor Furniture Set",
+    "img": "https://i.ibb.co/pyqrjGN/7.png",
+    "description": "Transform your outdoor living space with this durable and stylish outdoor furniture set. Crafted from weather-resistant materials, each piece is designed to withstand the elements while providing comfort and elegance. Whether you're hosting gatherings, enjoying a quiet moment in the sun, or having dinner al fresco, this furniture set adds a touch of sophistication to your patio or garden. Create an inviting outdoor retreat with this versatile and beautifully crafted furniture ensemble.",
+    "location": "Hobart, TAS ",
+    "price": 1200.0
+  },
+  {
+    "id": 8,
+    "name": "Fitness Equipment Bundle",
+    "img": "https://i.ibb.co/vqsDWKm/8.png",
+    "description": "Kickstart your fitness journey with this complete bundle of home fitness equipment. From cardio workouts to strength training, this bundle includes everything you need to achieve your fitness goals in the comfort of your own home. The high-quality equipment is designed for versatility and durability, ensuring a challenging and effective workout experience. Whether you're a fitness enthusiast or a beginner, this bundle provides the tools for a comprehensive and convenient home fitness routine.",
+    "location": "Darwin, NT ",
+    "price": 800.0
+  },
+  {
+    "id": 9,
+    "name": "Gaming Console",
+    "img": "https://i.ibb.co/RjvhxYg/9.png",
+    "description": "Immerse yourself in the world of gaming with this cutting-edge gaming console. Equipped with the latest technology and a vast library of games, this console offers an unparalleled gaming experience. From action-packed adventures to immersive simulations, explore a variety of gaming genres with stunning graphics and seamless gameplay. Whether you're a seasoned gamer or just starting, this gaming console provides endless entertainment for players of all levels.",
+    "location": "Gold Coast, QLD ",
+    "price": 500.0
+  },
+  {
+    "id": 10,
+    "name": "Antique Dresser",
+    "img": "https://i.ibb.co/3CCLH5Z/10.png",
+    "description": "Add a touch of vintage charm to your bedroom with this exquisite antique dresser. Crafted with meticulous attention to detail, this dresser showcases the timeless beauty of antique furniture. Each drawer features intricate detailing, and the elegant design complements a variety of interior styles. Whether you appreciate antiques or seek a unique statement piece for your home, this antique dresser is a true work of art that adds character and sophistication to any room.",
+    "location": "Geelong, VIC ",
+    "price": 600.0
+  },
+  {
+    "id": 11,
+    "name": "Compact Refrigerator",
+    "img": "https://i.ibb.co/fH83xXj/11.png",
+    "description": "Optimize your living space with this energy-efficient compact refrigerator. Perfect for small kitchens, dorm rooms, or as an additional storage solution, this refrigerator combines functionality with a sleek design. Featuring adjustable shelves, temperature control, and ample storage capacity, it keeps your food and beverages fresh and easily accessible. Whether you're looking for a space-saving refrigerator or an extra storage option, this compact refrigerator meets your needs with style and efficiency.",
+    "location": "Sunshine Coast, QLD ",
+    "price": 250.0
+  },
+  {
+    "id": 12,
+    "name": "Beachfront Property",
+    "img": "https://i.ibb.co/MDxnK90/12.png",
+    "description": "Own a piece of paradise with this stunning beachfront property. Nestled along the pristine shores, this property offers breathtaking ocean views and direct access to the beach. Ideal for building your dream home or vacation retreat, it provides a serene escape from the hustle and bustle of city life. Enjoy the sound of waves, golden sunsets, and a relaxed coastal lifestyle. Invest in coastal living and make memories that last a lifetime.",
+    "location": "Gold Coast, QLD ",
+    "price": 950000.0
+  },
+  {
+    "id": 13,
+    "name": "Professional Camera Kit",
+    "img": "https://i.ibb.co/SPZwG2m/13.png",
+    "description": "Capture life's moments with precision using this professional camera kit. Equipped with a high-resolution camera body, a variety of lenses, and advanced accessories, this kit is perfect for photography enthusiasts and professionals. Whether you're into portrait, landscape, or macro photography, this kit provides the tools to unleash your creativity. Elevate your photography skills and produce stunning visuals with this comprehensive camera kit.",
+    "location": "Sydney, NSW ",
+    "price": 2500.0
+  },
+  {
+    "id": 14,
+    "name": "Home Theater System",
+    "img": "https://i.ibb.co/Bj1W551/14.png",
+    "description": "Transform your living room into a cinematic experience with this high-end home theater system. Featuring a state-of-the-art sound system, a 4K projector, and comfortable seating, this system delivers an immersive movie-watching experience. Bring the magic of the big screen to your home, complete with rich audio and crystal-clear visuals. Upgrade your entertainment space and enjoy movie nights like never before.",
+    "location": "Melbourne, VIC ",
+    "price": 3500.0
+  },
+  {
+    "id": 15,
+    "name": "Designer Watch Collection",
+    "img": "https://i.ibb.co/3FXLrkQ/15.png",
+    "description": "Enhance your style with this exquisite designer watch collection. Crafted with precision and elegance, each watch in this collection is a statement piece that complements any outfit. From classic designs to modern aesthetics, this collection offers versatility and sophistication. Elevate your accessory game and make a lasting impression with these meticulously crafted designer timepieces.",
+    "location": "Brisbane, QLD ",
+    "price": 1200.0
+  },
+  {
+    "id": 16,
+    "name": "Smart Home Automation System",
+    "img": "https://i.ibb.co/5RZTr39/16.png",
+    "description": "Experience the future of living with this advanced smart home automation system. Control lighting, security, climate, and more with a touch of your smartphone or voice commands. Customizable and easy to install, this system enhances convenience, energy efficiency, and security in your home. Embrace the modern lifestyle with cutting-edge smart home technology.",
+    "location": "Adelaide, SA ",
+    "price": 5000.0
+  },
+  {
+    "id": 17,
+    "name": "Executive Office Desk",
+    "img": "https://i.ibb.co/1Gvz52P/17.png",
+    "description": "Upgrade your workspace with this executive office desk, designed for comfort and productivity. Crafted from premium materials, this desk features ample storage, a spacious work surface, and a sophisticated design. Create a professional and organized office environment that reflects your style and enhances your work efficiency.",
+    "location": "Perth, WA ",
+    "price": 1200.0
+  },
+  {
+    "id": 18,
+    "name": "Luxury Yacht",
+    "img": "https://i.ibb.co/8Y7RZmS/18.png",
+    "description": "Embark on a journey of luxury and exploration with this magnificent yacht. Designed for both relaxation and adventure, this yacht features luxurious cabins, state-of-the-art navigation systems, and spacious deck areas. Cruise along the coast or set sail to exotic destinations with comfort and style. Elevate your maritime experience with this opulent luxury yacht.",
+    "location": "Darwin, NT ",
+    "price": 1500000.0
+  },
+  {
+    "id": 19,
+    "name": "Gourmet Cooking Class Package",
+    "img": "https://i.ibb.co/55ZbfGd/19.png",
+    "description": "Unleash your culinary skills with this gourmet cooking class package. Led by renowned chefs, these classes cover a variety of cuisines and techniques. From knife skills to plating, enhance your cooking repertoire and impress your guests with restaurant-quality dishes. Immerse yourself in the world of gastronomy and elevate your cooking game with these exclusive gourmet cooking classes.",
+    "location": "Hobart, TAS ",
+    "price": 500.0
+  },
+  {
+    "id": 20,
+    "name": "Mountain Biking Adventure Package",
+    "img": "https://i.ibb.co/WB0dcNv/20.png",
+    "description": "Embark on a thrilling mountain biking adventure with this comprehensive package. Explore scenic trails, conquer challenging terrains, and experience the adrenaline rush of downhill descents. This package includes a high-performance mountain bike, safety gear, and guided tours to the most breathtaking biking destinations. Unleash your inner adventurer and enjoy the thrill of mountain biking.",
+    "location": "Geelong, VIC ",
+    "price": 800.0
+  },
+  {
+    "id": 21,
+    "name": "Designer Wedding Dress",
+    "img": "https://i.ibb.co/71wS2Xf/21.png",
+    "description": "Make your special day unforgettable with this exquisite designer wedding dress. Crafted with intricate lace, delicate details, and a timeless silhouette, this dress reflects elegance and sophistication. Feel like a princess as you walk down the aisle in this one-of-a-kind designer gown. Capture the essence of romance and beauty on your wedding day.",
+    "location": "Canberra, ACT ",
+    "price": 3000.0
+  },
+  {
+    "id": 22,
+    "name": "Vintage Vinyl Record Collection",
+    "img": "https://i.ibb.co/2Nbx5Wh/22.png",
+    "description": "Immerse yourself in the nostalgic sounds of the past with this curated vintage vinyl record collection. Featuring classic albums from various genres, this collection brings warmth and authenticity to your music collection. From iconic rock tunes to jazz melodies, experience the rich tones and timeless appeal of vinyl records. Elevate your listening experience with this vintage vinyl treasure trove.",
+    "location": "Melbourne, VIC ",
+    "price": 400.0
+  },
+  {
+    "id": 23,
+    "name": "Luxury Ski Resort Getaway",
+    "img": "https://i.ibb.co/CKYtfBv/23.png",
+    "description": "Escape to the snowy mountains with this luxury ski resort getaway package. Enjoy breathtaking alpine views, world-class skiing, and cozy accommodations. This package includes lift tickets, spa access, and gourmet dining experiences. Whether you're a seasoned skier or a first-timer, indulge in the ultimate winter retreat at a luxurious ski resort.",
+    "location": "Queenstown, NZ (nearby Australia)",
+    "price": 2500.0
+  },
+  {
+    "id": 24,
+    "name": "Antique Persian Rug",
+    "img": "https://i.ibb.co/4RFJ0GG/24.png",
+    "description": "Add a touch of elegance to your home with this exquisite antique Persian rug. Handwoven with intricate patterns and vibrant colors, this rug is a timeless piece of art. Crafted with care and precision, it brings warmth and sophistication to any room. Elevate your interior decor with the timeless beauty of an antique Persian rug.",
+    "location": "Adelaide, SA ",
+    "price": 1500.0
+  },
+  {
+    "id": 25,
+    "name": "Private Helicopter Tour",
+    "img": "https://i.ibb.co/6ZKtQBd/25.png",
+    "description": "Soar above the landscapes and enjoy a bird's-eye view with this private helicopter tour experience. Choose from scenic coastal flights, city skyline tours, or custom routes tailored to your preferences. Whether it's a romantic escape or a thrilling adventure, a private helicopter tour provides an unforgettable perspective of the world below.",
+    "location": "Perth, WA ",
+    "price": 2000.0
+  }
+]
+
+

@@ -1,17 +1,17 @@
 import registerBg from "./../../assets/Auth/Register.svg"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaGooglePlusG } from "react-icons/fa";
 import Logo from "./../../assets/Logo.png";
 import { useForm } from "react-hook-form";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
-
+import toast from "react-hot-toast";
 
 
 const Registration = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, signInWithGoogle } = useContext(AuthContext);
   const [registerError, setRegisterError] = useState("");
-
+const navigate = useNavigate()
 
   const {
     register,
@@ -26,14 +26,30 @@ const Registration = () => {
     createUser(data.email, data.password)
       .then(result => {
         console.log(result.user)
+        navigate("/")
+        toast.success("Registration Successful!");
         setRegisterError("")
       })
     .catch (error=> {
       console.log(error.message);
       setRegisterError(error.message)
     })
-    
    }
+
+  //sign up with
+  const handleGoogleSignUp = () => {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result.user);
+        navigate("/");
+        toast.success("Registration Successful!");
+        setRegisterError("");
+      })
+      .catch((error) => {
+        console.log(error.message);
+        setRegisterError(error.message);
+      });
+  };
 
     return (
       <div>
@@ -112,7 +128,7 @@ const Registration = () => {
               <span className="font-light">or continue with</span>
               <hr className="border-[.09rem] border-[#4169e1] w-full rounded-full " />
             </div>
-            <FaGooglePlusG className="text-center w-full text-4xl border-[.09rem] border-transparent rounded-md p-2 text-white bg-[#4169e1] cursor-pointer hover:border-[#4169e1] hover:bg-transparent hover:text-[#4169e1] duration-500 "></FaGooglePlusG>
+            <FaGooglePlusG onClick={handleGoogleSignUp} className="text-center w-full text-4xl border-[.09rem] border-transparent rounded-md p-2 text-white bg-[#4169e1] cursor-pointer hover:border-[#4169e1] hover:bg-transparent hover:text-[#4169e1] duration-500 "></FaGooglePlusG>
             <div className="flex items-center justify-center gap-2 mt-4 ">
               <p>Already have an account?</p>
               <Link to={"/login"} className="font-semibold text-[#4169e1] ">

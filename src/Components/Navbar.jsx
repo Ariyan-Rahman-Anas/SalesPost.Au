@@ -33,7 +33,7 @@ const Navbar = () => {
                   Home & Garden
                   <span className="absolute left-0 right-0 bottom-0 top-[1.35rem] h-[.14rem] w-full rounded-md bg-[#4169e1] transform scale-x-0 origin-bottom transition-transform group-hover:scale-x-100 duration-300 "></span>
                 </NavLink>
-                <ul className="drop-Down-1 px-5 py-3 w-[28rem] hidden group-hover:grid duration-500 absolute top-[1.55rem] text-white bg-[#4169e1] rounded-sm grid-cols-2 gap-4 ">
+                <ul className="drop-Down-1 px-5 py-3 w-[28rem] hidden group-hover:grid duration-500 absolute top-[1.55rem] text-white bg-[#4169e1] rounded-sm grid-cols-2 gap-4 z-50 ">
                   <li className="tex-white w-fit hover:underline">
                     <Link to={"/"}>Appliances</Link>
                   </li>
@@ -101,7 +101,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-middle-center">
+          <div className="navbar-middle-center-1 hidden md:block z-50 ">
             <ul className="flex items-center justify-center gap-6">
               <li className="tex-white relative group">
                 <NavLink to={"/"} className="group-hover:text-[#4169e1]">
@@ -152,16 +152,102 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-right-center">
+          <div className="navbar-middle-center-2 md:hidden z-50 ">
             <ul className="flex items-center justify-center gap-6">
               <li className="tex-white relative group">
-                <NavLink to={"/"} className="group-hover:text-[#4169e1]">
-                  My Account
+                <NavLink  className="group-hover:text-[#4169e1]">
+                  All Categories
                   <span className="absolute left-0 right-0 bottom-0 top-[1.35rem] h-[.14rem] w-full rounded-md bg-[#4169e1] transform scale-x-0 origin-bottom transition-transform group-hover:scale-x-100 duration-300 "></span>
                 </NavLink>
+                <ul className="drop-Down-1 px-5 py-3 w-[15rem]  hidden group-hover:flex duration-500 absolute right-0 top-[2.5rem] text-white bg-[#4169e1] rounded-sm flex-col gap-1 ">
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Antiques & Art</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Baby & Children</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Boats & Jet Skis</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Books, Music & Games</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Clothing & Jewellery</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Community</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Electronics & Computer</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Freebies</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Miscellaneous Goods</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Resumes</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Sport & Fitness</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Tickets</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Swap/Trade</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Appliances</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Home Decor</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Builder & Tradies</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Kitchen & Dining</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Building Materials</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Lighting</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Cleaning Services</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Tools and DIY</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Furniture</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Other Home and Garden</Link>
+                  </li>
+                  <li className="tex-white w-fit hover:underline">
+                    <Link to={"/"}>Garden</Link>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
+          {user && (
+            <div className="navbar-right-center">
+              <ul className="flex items-center justify-center gap-6">
+                <li className="tex-white relative group">
+                  <NavLink to={"/"} className="group-hover:text-[#4169e1]">
+                    My SalesPost
+                    <span className="absolute left-0 right-0 bottom-0 top-[1.35rem] h-[.14rem] w-full rounded-md bg-[#4169e1] transform scale-x-0 origin-bottom transition-transform group-hover:scale-x-100 duration-300 "></span>
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          )}
           <div className="navbar-end">
             {user ? (
               <Link
